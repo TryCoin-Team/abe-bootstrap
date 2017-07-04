@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Abe: a free block chain browser for Bitcoin-based currencies.
 https://github.com/bitcoin-abe/bitcoin-abe
 
@@ -158,3 +159,7 @@ Newbies: https://bitcointalk.org/index.php?topic=51139.0
 
 Donations appreciated: 1PWC7PNHL1SgvZaN7xEtygenKjWobWsCuf (BTC)
 NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK (NMC)
+=======
+# abe-bootstrap
+Block explorer for TryCoin based on Abe and bootstrap
+>>>>>>> 4dfc5334049ca516b713f84dcb2c37d918c70829
