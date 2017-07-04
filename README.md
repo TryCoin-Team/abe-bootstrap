@@ -4,6 +4,7 @@
 Block explorer for TryCoin based on Abe and bootstrap.
 
 https://github.com/TryCoin-Team/abe-bootstrap
+https://block.trycoin.co
 
     Copyright(C) 2011,2012,2013 by Abe developers.
     License: GNU Affero General Public License, see the file LICENSE.txt.
