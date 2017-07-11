@@ -994,8 +994,7 @@ class Abe:
             for subbinaddr in history['subbinaddr']:
                 body += [' ', hash_to_address_link(chain.address_version, subbinaddr, page['dotdot'], 10) ]
 
-        for chain in chains:
-            balance[chain.id] = 0  # Reset for history traversal.
+        
         body += ['<table class="table table-striped col-md-6">',
                  '<th colspan=2>Summary</th>',
                  '<tr><td>Balance</td><td>',format_amounts(balance, True),'</td></tr>',
@@ -1005,7 +1004,8 @@ class Abe:
                  '<tr><td>Sent</td><td>',format_amounts(sent, False),'</td></tr>',
                  '</table>'
                  ]
-
+	for chain in chains:
+           	 balance[chain.id] = 0  # Reset for history traversal.
 #        body += ['<br />\n',
 #                 'Transactions in: ', counts[0], '<br />\n',
 #                 'Received: ', format_amounts(received, False), '<br />\n',
